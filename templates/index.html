@@ -10,8 +10,9 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/assets/img/favicon.png" rel="icon">
-  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- {{ url_for('static',filename='assets/img/apple-touch-icon.png') }} -->
+  <link href="{{ url_for('static',filename='assets/img/favicon.png') }}" rel="icon">
+  <link href="{{ url_for('static',filename='assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -48,9 +49,7 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="/home">Home</a></li>
-          <li><a href="/skills">Skills</a></li>
           <li><a href="/resume">Resume</a></li>
-          <li><a href="/services">Services</a></li>
           <li><a href="/portfolio">Portfolio</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
@@ -58,10 +57,8 @@
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="https://github.com/PalaciosYoan" class="twitter"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/palaciosguzman/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
 
     </div>

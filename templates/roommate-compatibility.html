@@ -1,0 +1,49 @@
+{% extends 'portfolio-details.html'%} {%block content%}
+
+<div class="row gy-4">
+  <div class="col-lg-8">
+    <div class="portfolio-details-slider swiper-container">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide">
+          <img src="static/assets/img/portfolio/roommateMain.jpg" alt="" />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="static/assets/img/portfolio/t.jpg" alt="" />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="static/assets/img/portfolio/studyRoom.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="portfolio-info">
+      <h3>Project information</h3>
+      <ul>
+        <li><strong>Category</strong>: Software Development</li>
+        <li><strong>Client</strong>: School Project</li>
+        <li><strong>Project date</strong>: November 30, 2018</li>
+        <li>
+          <strong>Project URL</strong>:
+          <a
+            href="https://github.com/PalaciosYoan/Roommate-Compatibility-Program"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="portfolio-description">
+      <h2>Roommate Compatibility Program</h2>
+      <p>
+        The program can analyzed and score the students' compatibility with
+        other students. While matching every student to their best match.
+      </p>
+    </div>
+  </div>
+</div>
+{%endblock%}

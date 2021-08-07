@@ -1,0 +1,55 @@
+{% extends 'portfolio-details.html'%} {%block content%}
+
+<div class="row gy-4">
+  <div class="col-lg-8">
+    <div class="portfolio-details-slider swiper-container">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide">
+          <img src="static/assets/img/portfolio/websitehome2.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="portfolio-info">
+      <h3>Project information</h3>
+      <ul>
+        <li><strong>Category</strong>: Web Development</li>
+        <li><strong>Client</strong>: Personal Project</li>
+        <li><strong>Project date</strong>: August 7, 2021</li>
+        <li>
+          <strong>Project URL</strong>:
+          <a
+            href="https://github.com/PalaciosYoan/personalWebsite"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="portfolio-description">
+      <h2>Personal Website</h2>
+
+      <p>
+        Purpose: To show the inner features of the website.
+        <br />
+        <br />
+        Features:
+        <li>
+          API calls to retrieve project information (<a
+            href="https://github.com/PalaciosYoan/personalWebsite/blob/main/README.md"
+            target="_blank"
+            >click me to find out how</a
+          >).
+        </li>
+        <li>
+          Contact Forms information is store in a database and forward to me
+          with an API call.
+        </li>
+      </p>
+    </div>
+  </div>
+</div>
+{%endblock%}

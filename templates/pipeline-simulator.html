@@ -1,0 +1,62 @@
+{% extends 'portfolio-details.html'%} {%block content%}
+
+<div class="row gy-4">
+  <div class="col-lg-8">
+    <div class="portfolio-details-slider swiper-container">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide">
+          <img
+            src="static/assets/img/portfolio/5stagePipelineMap2.png"
+            alt=""
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="static/assets/img/portfolio/5stagePipelineMap.png" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="portfolio-info">
+      <h3>Project information</h3>
+      <ul>
+        <li><strong>Category</strong>: Computer Architecture</li>
+        <li><strong>Client</strong>: School Project</li>
+        <li><strong>Project date</strong>: May 5, 2021</li>
+        <li>
+          <strong>Project URL</strong>:
+          <a
+            href="https://github.com/PalaciosYoan/Mips-Simulator-Pipeline"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="portfolio-description">
+      <h2>CPU Pipeline Simulator</h2>
+
+      <p>
+        The purpose of this program is too further understand the inner workings
+        of a CPU in one of the simplest forms.
+        <br />
+        <br />
+        Structure: Created multiple classes to keep track of the necessary
+        information for the given instruction at the current stage. Such as IF,
+        ID, EXE, MEM, WB, etc., each one will store the essential information
+        for that instruction. Created class Stage and made two instances of the
+        class. One instance holds the current cycle information; The second
+        instance contains the following cycle information.
+        <br />
+        <br />
+        Outcome: With the completion of this project helped me further
+        understand the inner workings of a CPU. Additionally, have tremendous
+        respect for those working with computer architecture.
+      </p>
+    </div>
+  </div>
+</div>
+{%endblock%}

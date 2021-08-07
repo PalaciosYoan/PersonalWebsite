@@ -1,0 +1,55 @@
+{% extends 'portfolio-details.html'%} {%block content%}
+
+<div class="row gy-4">
+  <div class="col-lg-8">
+    <div class="portfolio-details-slider swiper-container">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide">
+          <img src="static/assets/img/portfolio/superMario.png" alt="" />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="static/assets/img/portfolio/superMario.png" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="portfolio-info">
+      <h3>Project information</h3>
+      <ul>
+        <li><strong>Category</strong>: Object-Oriented Programing</li>
+        <li><strong>Client</strong>: School Project</li>
+        <li><strong>Project date</strong>: December 9, 2020</li>
+        <li>
+          <strong>Project URL</strong>:
+          <a
+            href="https://github.com/PalaciosYoan/super_mario_bros-troll_level"
+            target="_blank"
+            >github</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="portfolio-description">
+      <h2>super_mario_bros-troll_level</h2>
+
+      <p>
+        Objective: Replicate the Super Mario Bros game by using OpenGL GLUTAPP
+        in C++
+        <br />
+        <br />
+        Description: I used an object-oriented design to make this game, which
+        includes the game's logic, graphics, physics, etc.
+        <br />
+        <br />
+        Outcome: By completing this project, it help me learn how to simulate
+        physics in the game and improve my object-oriented programming
+        knowledge.
+      </p>
+    </div>
+  </div>
+</div>
+{%endblock%}

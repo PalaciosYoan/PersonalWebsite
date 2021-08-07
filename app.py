@@ -7,27 +7,31 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/skills')
-def about():
-    return render_template('skills.html')
-
 
 @app.route('/resume')
 def resume():
     return render_template('resume.html')
-
-@app.route('/services')
-def services():
-    return render_template('services.html')
 
 
 @app.route('/portfolio')
 def portfolio():
     return render_template('portfolio.html')
 
-@app.route('/portfolio-details')
+@app.route('/roommate-compatibility')
 def portfolio_details():
-    return render_template('portfolio-details.html')
+    return render_template('roommate-compatibility.html')
+
+@app.route('/pipeline-simulator')
+def pipeline_simulator():
+    return render_template('pipeline-simulator.html')
+
+@app.route('/super-mario-bros-troll')
+def super_mario():
+    return render_template('super-mario-troll-level.html')
+
+@app.route('/personal-website')
+def personal_website():
+    return render_template('personal-website.html')
 
 @app.route('/contact')
 def contact():
